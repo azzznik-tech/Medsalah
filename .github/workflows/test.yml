@@ -1,0 +1,7 @@
+name: تجربة من الهاتف
+on: push
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "اشتغل بنجاح من الموبايل 🔥"
